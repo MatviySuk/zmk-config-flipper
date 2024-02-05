@@ -63,10 +63,10 @@
 	    key-positions = <3 5>;
             bindings = <&sl 5>;
         };
-        g {
+        q {
             timeout-ms = <10>;
 	    key-positions = <8 9>;
-            bindings = <&kp G>;
+            bindings = <&kp Q>;
 	    layers = <0>;
         };
         j {
@@ -75,16 +75,10 @@
             bindings = <&kp J>;
 	    layers = <0>;
         };
-        p {
+        z {
             timeout-ms = <20>;
 	    key-positions = <12	13>;
-            bindings = <&kp P>;
-	    layers = <0>;
-        };
-        b {
-            timeout-ms = <20>;
-	    key-positions = <22	23>;
-            bindings = <&kp B>;
+            bindings = <&kp Z>;
 	    layers = <0>;
         };
         sqt {
@@ -199,10 +193,10 @@
 
        		default_layer {
 		bindings = <
-        &kp C 	   	&kp L 		&kp M								                    &kp F 		&kp U   	&kp Z
-&kp I 	&hm LCTL S 	&hm LALT R	&hm LGUI T 	&kp LC(LG(Q)) 		    &kp LC(LG(SPACE)) 	&hm RGUI N  &hm RALT K  &hm RCTL A 	&kp O
-&kp Q	&kp V 		&kp W 		&kp D 		&kp LC(LG(LS(N4)))   	&kp LC(SPACE)		&kp H  		&kp Y 		&kp DOT		&kp X
-                                            &mt LC(LS(LALT)) SPC    &kp E
+        &kp W 	   	&kp E 		&kp R								                &kp U 		&kp I   	&kp O
+&kp A 	&hm LCTL S 	&hm LALT D	&hm LGUI F 	&kp G        		    &kp H 	        &hm RGUI J  &hm RALT K  &hm RCTL L 	&kp :
+&kp Z	&kp X 		&kp C 		&kp V 		&kp LC(LG(LS(N4)))   	&kp LC(SPACE)	&kp N  		&kp M 		&kp T		&kp X
+                                            &mt LC(LS(LALT)) SPC    &kp Y
 		>;
 		};
 
