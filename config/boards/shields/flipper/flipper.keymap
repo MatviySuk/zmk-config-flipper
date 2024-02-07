@@ -233,7 +233,7 @@
 		os {
 		bindings = <
         &kp ATSN	&kp EXCL 	    &kp AMPS			                &kp SEMI	    &kp COLON   &kp COMMA
-&kp TAB &kp QMARK 	&kp LA(RBKT)	&kp LA(LS(RBKT))  	&trans 	&trans	&kp p           &kp P 	    &kp DOT	    &kp MINUS
+&kp TAB &kp QMARK 	&kp LA(RBKT)	&kp LA(LS(RBKT))  	&trans 	&trans	&kp P           &kp LS(P) 	&kp DOT	    &kp MINUS
 &trans	&kp SLASH 	&kp LA(LBKT)	&kp LA(LS(LBKT))  	&trans	&trans 	&kp LS(MINUS)   &kp STAR    &trans      &kp EQUAL
                                                         &to 0 	&to 1
 		>;
