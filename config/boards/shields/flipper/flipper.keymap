@@ -189,7 +189,7 @@
 		bindings = <
         &kp W 	   	&kp E 		&kp R								                &kp U 		&kp I   	&kp O
 &kp A 	&hm LCTL S 	&hm LALT D	&hm LGUI F 	&kp G        		    &kp H 	        &hm RGUI J  &hm RALT K  &hm RCTL L 	&kp SEMI
-&kp Z	&kp X 		&kp C 		&kp V 		&kp LC(LG(LS(N4)))   	&kp LC(LG(Q))	&kp N  		&kp M 		&kp 		&kp B
+&kp Z	&kp X 		&kp C 		&kp V 		&kp LC(LG(LS(N4)))   	&kp LC(LG(Q))	&kp N  		&kp M 		&kp DOT 	&kp B
                                             &mt LC(LS(LALT)) SPC    &kp T
 		>;
 		};
