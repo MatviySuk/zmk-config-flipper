@@ -54,7 +54,7 @@
             bindings = <&kp BKSP>;
         };
         caps {
-           timeout-ms = <50>;
+            timeout-ms = <50>;
 	    key-positions = <24 25>;
             bindings = <&kp CAPS>;
         };
@@ -80,8 +80,6 @@
             bindings = <&kp Y>;
 	    layers = <0>;
         };
-        sqt {
-
         bslh {
             timeout-ms = <20>;
 	    key-positions = <12	13>;
