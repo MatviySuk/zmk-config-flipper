@@ -43,13 +43,18 @@
 	    key-positions = <26 27>;
             bindings = <&to 1>;
         };
+        combo_2 {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&to 2>;
+        };
         combo_3 {
             timeout-ms = <50>;
 	    key-positions = <4 5>;
             bindings = <&kp BKSP>;
         };
         caps {
-            timeout-ms = <50>;
+           timeout-ms = <50>;
 	    key-positions = <24 25>;
             bindings = <&kp CAPS>;
         };
@@ -69,24 +74,14 @@
             bindings = <&kp Q>;
 	    layers = <0>;
         };
-        j {
+        y {
             timeout-ms = <20>;
 	    key-positions = <18 19>;
-            bindings = <&kp J>;
+            bindings = <&kp Y>;
 	    layers = <0>;
         };
         sqt {
-            timeout-ms = <20>;
-	    key-positions = <8 9>;
-            bindings = <&kp SQT>;
-	    layers = <1 5>;
-        };
-	dqt {
-            timeout-ms = <20>;
-	    key-positions = <18 19>;
-            bindings = <&kp DQT>;
-	    layers = <1 5>;
-        };
+
         bslh {
             timeout-ms = <20>;
 	    key-positions = <12	13>;
@@ -188,8 +183,8 @@
        		default_layer {
 		bindings = <
         &kp W 	   	&kp E 		&kp R								                &kp U 		&kp I   	&kp O
-&kp A 	&hm LCTL S 	&hm LALT D	&hm LGUI F 	&kp G        		    &kp H 	        &hm RGUI J  &hm RALT K  &hm RCTL L 	&kp SEMI
-&kp Z	&kp X 		&kp C 		&kp V 		&kp LC(LG(LS(N4)))   	&kp LC(LG(Q))	&kp N  		&kp M 		&kp DOT 	&kp B
+&kp A 	&kp S 	    &kp D	    &kp F 	    &kp G        		    &kp H 	        &kp J       &kp K       &kp L 	        &kp SEMI
+&kp Z	&hm LCTL X 	&hm LALT C	&hm LGUI V	&kp LC(LG(LS(N4)))   	&kp LC(LG(Q))	&hm RGUI N  &hm RALT M 	&hm RCTL DOT 	&kp B
                                             &mt LC(LS(LALT)) SPC    &kp T
 		>;
 		};
@@ -197,7 +192,7 @@
        		left_layer {
 		bindings = <
                     &kp ATSN   	    &kp LS(N3) 			&kp DLLR    						    &kp LS(COMMA) 	&kp LS(DOT) 	&kp CARET
-&kp TAB    		    &hm LCTL EQUAL  &hm LALT LA(RBKT)   &hm LGUI LA(LS(RBKT))	&trans  &trans	&hm RGUI LBRC  	&hm RALT RBRC 	&hm RSHIFT PIPE &trans
+&kp TAB    		    &hm LCTL EQUAL  &hm LALT LA(RBKT)   &hm LGUI LA(LS(RBKT))	&trans  &trans	&hm RGUI LBRC  	&hm RALT RBRC 	&hm RCTL PIPE   &trans
 &hs LSHIFT TILDE	&kp LA(N3) 	    &kp LA(LBKT)		&kp LA(LS(LBKT))  		&trans 	&trans	&kp LPAR 	    &kp RPAR 	    &kp RBKT  	    &kp LSHIFT
                                                                                 &to 0	&to 2
 		>;
@@ -215,7 +210,7 @@
 		tri_layer {
 		bindings = <
                     &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    					&kp LC(LS(TAB)) &kp RC(TAB)	&kp LG(LBKT)
-&kp TAB			    &mmv MOVE_LEFT      &mmv MOVE_DOWN	&mmv MOVE_RIGHT 	&trans	&trans		&kp DOWN  		&hm RALT UP &kp RIGHT 	&kp LG(RBKT)
+&kp TAB			    &mmv MOVE_LEFT      &mmv MOVE_DOWN	&mmv MOVE_RIGHT 	&trans	&trans		&kp DOWN  		&kp UP      &kp RIGHT 	&kp LG(RBKT)
 &td LG(GRAVE) GRAVE &mkp RCLK  		    &mwh SCROLL_UP	&mwh SCROLL_DOWN 	&trans  &trans 	    &kp PG_DN  		&kp PG_UP  	&trans		&kp LSHIFT
                                                                             &to 0 	&kp RGUI
 		>;
