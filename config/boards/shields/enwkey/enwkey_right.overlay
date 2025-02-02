@@ -4,4 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "flipper.dtsi"
+#include "enwkey.dtsi"
+
+&default_transform {
+	col-offset = <14>;
+};
