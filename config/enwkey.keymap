@@ -47,24 +47,24 @@
         rshift {
             timeout-ms = <50>;
             key-positions = <28 29>;
-            bindings = <&sk RSHIFT>;
+            bindings = <&kp RSHIFT>;
         };
 
         del {
             timeout-ms = <20>;
             key-positions = <8 9>;
-            bindings = <&kp DEL>;
+            bindings = <&kp DELETE>;
             layers = <0>;
         };
 
         lshift {
-            bindings = <&sk LSHIFT>;
+            bindings = <&kp LSHIFT>;
             key-positions = <20 21>;
             timeout-ms = <50>;
         };
 
         tab {
-            bindings = <&sk TAB>;
+            bindings = <&kp TAB>;
             key-positions = <10 11>;
             timeout-ms = <50>;
         };
@@ -107,10 +107,10 @@
 
         NEW_LAYER {
             bindings = <
-&kp Q  &kp W  &kp F             &kp P  &kp B  &kp J  &kp L             &kp U      &kp Y    &kp SEMI
-&kp A  &kp R  &kp S             &kp T  &kp G  &kp M  &kp N             &kp E      &kp I    &kp O
-&kp X  &kp C  &kp D             &kp V  &kp Z  &kp K  &kp H             &kp COMMA  &kp DOT  &kp FSLH
-              &kp LEFT_CONTROL  &to 1                &kp LEFT_COMMAND  &kp SPACE
+&mt GRAVE Q  &kp W       &kp F            &kp P             &kp B  &kp J  &kp L  &kp U      &mt LEFT_BRACKET Y  &mt RIGHT_BRACKET SEMI
+&mt CAPS A   &kp R       &kp S            &kp T             &kp G  &kp M  &kp N  &kp E      &kp I               &mt SQT O
+&mt LCTRL X  &mt LALT C  &kp D            &kp V             &kp Z  &kp K  &kp H  &kp COMMA  &kp DOT             &mt BACKSLASH FSLH
+                         &mt GLOBE SPACE  &kp LEFT_COMMAND                &to 1  &kp SPACE
             >;
         };
 
