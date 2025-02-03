@@ -104,7 +104,7 @@
 &mt GRAVE Q       &kp W       &kp F                   &kp P                        &kp B  &kp J  &kp L  &kp U                    &mt LEFT_BRACKET Y  &mt RIGHT_BRACKET SEMI
 &mt LEFT_SHIFT A  &kp R       &kp S                   &kp T                        &kp G  &kp M  &kp N  &kp E                    &kp I               &mt SQT O
 &mt LCTRL X       &mt LALT C  &kp D                   &kp V                        &kp Z  &kp K  &kp H  &kp COMMA                &kp DOT             &mt BACKSLASH FSLH
-                              &mt LEFT_COMMAND SPACE  &mt LC(SPACE) LC(LA(SPACE))                &to 1  &mt RIGHT_COMMAND SPACE
+                              &mt LEFT_COMMAND SPACE  &mt LA(SPACE) LC(LA(SPACE))                &to 1  &mt RIGHT_COMMAND SPACE
             >;
         };
 
