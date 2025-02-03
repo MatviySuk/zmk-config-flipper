@@ -25,14 +25,14 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
 
         combo_ent {
-            timeout-ms = <20>;
-            key-positions = <18 19>;
+            timeout-ms = <50>;
+            key-positions = <18 17>;
             bindings = <&kp RET>;
             layers = <0>;
         };
@@ -44,8 +44,8 @@
         };
 
         del {
-            timeout-ms = <20>;
-            key-positions = <8 9>;
+            timeout-ms = <50>;
+            key-positions = <18 19>;
             bindings = <&mt DELETE BACKSPACE>;
             layers = <0>;
         };
@@ -58,8 +58,9 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
