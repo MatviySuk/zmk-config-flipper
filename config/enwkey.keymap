@@ -101,19 +101,19 @@
 
         NEW_LAYER {
             bindings = <
-&mt GRAVE Q       &kp W       &kp F                   &kp P                                 &kp B  &kp J  &kp L  &kp U                    &mt LEFT_BRACKET Y  &mt RIGHT_BRACKET SEMI
-&mt LEFT_SHIFT A  &kp R       &kp S                   &kp T                                 &kp G  &kp M  &kp N  &kp E                    &kp I               &mt SQT O
-&mt LCTRL X       &mt LALT C  &kp D                   &kp V                                 &kp Z  &kp K  &kp H  &kp COMMA                &kp DOT             &mt BACKSLASH FSLH
-                              &mt LEFT_COMMAND SPACE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT                &to 1  &mt RIGHT_COMMAND SPACE
+&mt GRAVE Q       &kp W       &kp F                   &kp P                        &kp B  &kp J  &kp L  &kp U                    &mt LEFT_BRACKET Y  &mt RIGHT_BRACKET SEMI
+&mt LEFT_SHIFT A  &kp R       &kp S                   &kp T                        &kp G  &kp M  &kp N  &kp E                    &kp I               &mt SQT O
+&mt LCTRL X       &mt LALT C  &kp D                   &kp V                        &kp Z  &kp K  &kp H  &kp COMMA                &kp DOT             &mt BACKSLASH FSLH
+                              &mt LEFT_COMMAND SPACE  &mt LC(SPACE) LC(LA(SPACE))                &to 1  &mt RIGHT_COMMAND SPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans      &trans  &trans  &trans  &trans      &trans      &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans  &trans      &trans      &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans  &trans      &trans      &trans  &trans
-                &bt BT_PRV  &to 0                   &bt BT_CLR  &bt BT_NXT
+&trans        &trans        &trans        &trans        &trans        &bt BT_CLR  &trans  &trans      &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans  &trans      &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans      &trans  &trans
+                            &bt BT_PRV    &none                                   &to 0   &bt BT_NXT
             >;
         };
     };
